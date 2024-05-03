@@ -1,0 +1,41 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    justify-content: space-around;
+    row-gap: 10px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 10px;
+}
+
+.footer h1 {
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.footer li {
+    margin-bottom: 3px;
+}
+
+.footer a {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+.footer a:hover {
+    color: rgb(255, 122, 122);
+}
+
+.pagamento ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+.media ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
